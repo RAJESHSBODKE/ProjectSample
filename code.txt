@@ -1,1 +1,4 @@
 Datamites
+
+select customerName, customerNumber, contactFirstName, contactLastName from customers where country = "USA";
+select customerName, customerNumber, contactFirstName, contactLastName from customers where creditLimit<=30000
